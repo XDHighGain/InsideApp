@@ -1,3 +1,7 @@
+При условии что среда полностью настроена для работы с RN проектами необходимо только установить пакеты указанные в package.json (npm install)
+Тесты проводились на эмуляторе Pixel 4A (API 31), вместо htp://localhost в проекте указан http://10.0.2.2 тк первый вариант эмулятор не увидит(только для Android)
+после установки пакетов -> npx react-native run-android
+
 This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
 
 # Getting Started
